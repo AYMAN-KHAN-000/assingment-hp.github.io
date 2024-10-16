@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+/* navbar desing */
+.navbar{
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    /* gap: 100px; */
+    & i{
+        font-size: 25px;
+        margin: auto 0;
+        margin-right: 40px;
+        margin-left: 10px;
+        right: 40px;
+    }
+  
+    
+
+
+
+    & img{
+        width: 140px;
+        height: 30px;
+        margin: auto 0;
+        margin-left: 30px;
+    }
+
+    .connect{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .bsc{
+            display: flex;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            font-family: sans-serif;
+            font-weight: 100;
+            & a{
+                text-decoration: none;
+                color: black;
+                
+                text-align: center;
+        
+                & h1{
+                   display: inline-block;
+                   text-align: center;
+                   margin: auto;
+                   
+                }
+                }
+        }
+      
+    }
+   
+    
+
+
+    & button{
+        height: 30px;
+        font-weight: 600;
+        padding: 5px 7px;
+        right: 0;
+        gap: 10px;
+        border-radius: 15px;
+        border: none;
+
+    }
+    .login{
+        margin: auto;
+        gap: 0;
+        padding: 5px 12px;
+        background-color: rgba(234, 233, 233, 0.852);
+    }
+    .getstarted{
+        display: flex;
+        text-align: left;
+        margin: auto 10px;
+        margin-right: 0px;
+        
+        padding: 5px 15px;
+        padding-top: 7px;
+        color: white;
+        background-color: black;
+    }
+
+
+}
+
+
+
+/* first section desing */
+.onestsec{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+
+
+
+
+    .banner{
+        top: 60px;
+        z-index: -1;
+        width: 100%;
+        height: 700px;
+        
+        
+
+
+    }
+    & div{
+        box-shadow: 15px 45px 150px;
+        
+        border: 1px solid black;
+        border-radius: 7px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 200px;
+        margin: auto;     
+        z-index: 1;
+        width: 75%;
+        height: 35%;
+       background-color: #fff;
+        object-fit: cover;
+        position: absolute;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        /* justify-content: center; */
+
+        h1{
+            font-size: 40px;
+            top: 10px;
+            position: relative;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+
+        }
+
+        .stline{
+            box-shadow: none;
+           top: 130px;
+           border: none;
+           align-items: center;
+           display: flex;
+          height: 50px;
+           
+
+            & div{
+                
+               box-shadow: none;
+                z-index: 1;
+                border: none;
+                background-color:  rgba(234, 233, 233, 0.852);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 10px 17px; 
+                position: relative;
+                width: 180px;
+                height: 40px;
+                gap: 10px;
+                font-size: 25px;
+            }
+
+        }
+        .tostline{
+            top: 200px;
+            height: 60px;
+            border: none;
+            display: flex;
+            align-items: center;
+          box-shadow: none;
+
+        .howmuch{
+            padding: 5px 10px;
+            border: none;
+            background-color:  rgba(234, 233, 233, 0.852);
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: auto;
+            width: 100%;
+            height: 45px;
+            margin-right: 25px;
+            box-shadow: none;
+           
+            & h1{
+                font-size: 25px;
+            }
+            }
+            .offer{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 600;
+                font-size: 22px;
+                background-color: rgb(95, 250, 198);
+                border-radius: 50px;
+                height: 50px;
+                width: 200px;
+                padding: 10px 15px;
+           
+
+        }
+
+        }
+
+
+       
+
+
+
+
+
+        
+    } 
+    
+
+    
+    
+        .zp{
+            top: 500px;
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            background-color: transparent;
+            border-radius: 50px;
+            border: 3px solid white;
+            color: white;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: 1;
+            
+
+            & a{
+                color: #fff;
+            }
+           
+        }
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* second section desing */
+
+.second_section{
+    border-bottom: 2px solid black;
+    border-top: 3px solid gray;
+    width: 100%;
+    height: 421px;
+    background-color: #fde24f;
+     font-size: 30px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+     
+ 
+    
+    & h5{
+        position: relative;
+        text-align: center;
+        top: 50px;
+        font-size: 40px;
+        grid-column: 3 / 7;
+        grid-row: 1;
+    }
+
+    & img{
+        position: relative;
+        width: 130px;
+        top: 100px;
+        margin: auto;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+    }
+    .onebo{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .onebt{
+        grid-row: 2;
+        grid-column: 3;
+    }
+    .onebth{
+        grid-row: 2;
+        grid-column: 4;
+    }
+    .onebf{
+        grid-row: 2;
+        grid-column: 5;
+    }
+    .onebft{
+        grid-row: 2;
+        grid-column: 6;
+    }
+    .onebs{
+        grid-row: 2;
+        grid-column: 7;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/* third section styles */
+
+.third-section{
+    width: 100%;
+    height: auto;
+
+    & img {
+        width: 100%;
+        position: relative;
+
+    }
+}
+
+
+
+/* forth section desing */
+.forth-section{
+    height:auto;
+    width: 100%;
+    border-bottom: 2px solid;
+    background-color: #f8f8f8;
+    display: flex;
+    
+    & img{
+        width: 100%;
+    }
+
+ 
+
+      
+    
+}
+.fift-section{
+    width: 100%;
+    height: auto;
+
+    & img{
+        width: 100%;
+        position: relative;
+
+    }
+
+}
+.sixth-section{
+    width: 100%;
+    height: auto;
+
+    & img{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+}
+
